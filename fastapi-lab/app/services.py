@@ -15,7 +15,7 @@ class TaskService:
         if existing_task:
             raise HTTPException(
                 status_code=400, 
-                detail=f"Task ที่ชื่อ '{task_in.title}' มีอยู่แล้วครับนายนัธทวัฒน์!"
+                detail=f"Task ที่ชื่อ '{task_in.title}' มีอยู่แล้วครับMr.Thitiwat lunnabut!"
             )
             
         return self.repo.create(task_in)
