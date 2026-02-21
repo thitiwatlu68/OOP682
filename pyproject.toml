@@ -10,5 +10,5 @@ dependencies = [
 
 [tool.uv.workspace]
 members = [
-    "fastapi-lab",
+    "fastapi-lab"
 ]
